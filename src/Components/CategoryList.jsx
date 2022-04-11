@@ -1,5 +1,6 @@
 import CategoryItem from "./CategoryItem";
 
+
 export default function CategoryList(props) {
 	const {catalog} = props;
 	return (
