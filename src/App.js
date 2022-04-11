@@ -15,7 +15,7 @@ function App() {
 				<Header/>
 				<main className="container content">
 					<Switch>
-						<Route path="/" exact component={Home}/>
+						<Route exact path="/" component={Home}/>
 						<Route path="/about" component={About}/>
 						<Route path="/contact" component={Contact}/>
 						<Route path="/movie/:34?" component={Movie}/>

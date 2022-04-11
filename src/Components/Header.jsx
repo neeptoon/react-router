@@ -7,10 +7,10 @@ export default function Header() {
 				<span className="brand-logo">My Simple Shop</span>
 				<ul className="right">
 					<li>
-						<Link to="/about" exact>About</Link>
+						<Link to="/about">About</Link>
 					</li>
 					<li>
-						<Link to="/contact" exact>Contact</Link>
+						<Link to="/contact">Contact</Link>
 					</li>
 				</ul>
 
