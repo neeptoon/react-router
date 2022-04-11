@@ -29,6 +29,10 @@ main {
   flex-grow: 1;
 }
 
+img, iframe {
+  max-width: 100%;
+}
+
 
 
 
