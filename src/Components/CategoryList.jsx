@@ -1,12 +1,16 @@
 import CategoryItem from "./CategoryItem";
+import Search from './Search';
 
 
 export default function CategoryList(props) {
-	const {catalog} = props;
+	const {catalog, cb} = props;
 	return (
-		<div className="list">
-			{catalog.map(item => <CategoryItem key={item.idCategory} category={item}/>)}
-		</div>
+		<>
+			<Search cb={cb}/>
+			<div className="list">
+				{catalog.map(item => <CategoryItem key={item.idCategory} category={item}/>)}
+			</div>
+		</>
 	)
 
 }
