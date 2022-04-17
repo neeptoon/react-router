@@ -11,7 +11,7 @@ import Recipe from "./Components/Recipe";
 function App() {
 	return (
 		<>
-			<BrowserRouter>
+			<BrowserRouter basename="/react-router">
 				<Header/>
 				<main className="container content">
 					<Switch>
