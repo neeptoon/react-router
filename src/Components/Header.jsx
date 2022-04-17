@@ -4,7 +4,7 @@ export default function Header() {
 	return (
 		<nav className="purple accent-4">
 			<div className="nav-wrapper">
-				<span className="brand-logo">My Simple Shop</span>
+				<Link to="/" className="brand-logo">My simple recipes</Link>
 				<ul className="right">
 					<li>
 						<Link to="/about">About</Link>
